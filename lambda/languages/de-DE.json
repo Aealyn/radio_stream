@@ -1,0 +1,28 @@
+{
+    "SKILL_NAME": "Altmühltal Radio",
+    "ABOUT": [
+        "Dies ist eine Audio-Streaming-Skill, die mit einer kostenlosen Vorlage von dabblelab.com erstellt wurde. Um weiterzuhören, sagen Sie: fortsetzen, oder sagen Sie: stoppen, um die Wiedergabe zu beenden."
+    ],
+    "ABOUT_REPROMPT":[
+        "Um weiterzuhören, sagen Sie: fortsetzen, oder sagen Sie: stoppen, um die Wiedergabe zu beenden."
+    ],
+    "HELP": [
+        "Diese Skill spielt beim Starten einen Audiostream ab. Sie hat keine weiteren Funktionen."
+    ],
+    "HELP_REPROMPT": [
+        "Diese Skill spielt beim Starten einen Audiostream ab. Sie hat keine weiteren Funktionen."
+    ],
+    "FALLBACK": [
+        "Entschuldigung, das habe ich nicht verstanden. Um den Stream zu starten, sagen Sie: abspielen."
+    ],
+    "FALLBACK_REPROMPT": [
+        "Entschuldigung, das habe ich nicht verstanden. Um den Stream zu starten, sagen Sie: abspielen."
+    ],
+    "UNHANDLED":[
+        "Diese Funktion wird derzeit nicht unterstützt.",
+        "Entschuldigung, wir unterstützen diese Funktion momentan nicht."
+    ],
+    "DEVICE_NOT_SUPPORTED" : "Entschuldigung, diese Skill wird auf diesem Gerät nicht unterstützt.",
+    "ERROR": "Entschuldigung, ich konnte Ihre letzte Anfrage nicht bearbeiten. Könnten Sie das bitte wiederholen?",
+    "ERROR_REPROMPT": "Könnten Sie das bitte wiederholen?"
+}

@@ -1,0 +1,87 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Das Radio mit Musik und Herz",
+          "examplePhrases": [
+            "Alexa, starte a. m. r.",
+            "Alexa, spiele a. m. r.",
+            "Alexa, öffne a. m. r."
+          ],
+          "keywords": [
+            "Radio",
+            "Webradio",
+            "Herz",
+            "Musik",
+            "Schlager",
+            "Familie",
+            "Webradio",
+            "mit",
+            "Herz"
+          ],
+          "name": "Alt Mühltal Radio",
+          "description": "Das Radio mit Musik und Herz",
+          "smallIconUri": "file://assets/images/de-DE_smallIconUri.png",
+          "updatesDescription": "Erste Version des Skills",
+          "largeIconUri": "file://assets/images/de-DE_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"No special instructions.\"}",
+      "category": "RADIO",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:852160782809:function:0575dd67-c264-47d5-8a65-530476e46e6c:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:852160782809:function:0575dd67-c264-47d5-8a65-530476e46e6c:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:852160782809:function:0575dd67-c264-47d5-8a65-530476e46e6c:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:852160782809:function:0575dd67-c264-47d5-8a65-530476e46e6c:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "de-DE": {
+          "termsOfUseUrl": "https://altmuehltal-radio.de/index.php?seite\u003ddatenschutz",
+          "privacyPolicyUrl": "https://altmuehltal-radio.de/index.php?seite\u003dimpressum"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
